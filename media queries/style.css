@@ -1,0 +1,38 @@
+
+nav{
+    background-color:rgb(173, 149, 117);
+}
+
+ul{
+    list-style-type: none;
+}
+
+u li{
+    display: inline-block
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+@media (max-width:500px)
+{
+    ul li{
+        
+        display: block;
+         padding: 20px;
+     }
+     
+}
+@media (min-width:501) and (max-width:768px)
+{
+    ul li{
+        
+    padding: 50px;
+    
+     
+     }
+     
+}
